@@ -1,0 +1,31 @@
+.section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.movie-page-top-part {
+  display: grid;
+  grid-template-columns: 200px auto;
+  gap: 20px;
+  margin-top: 20px;
+}
+.movie-page-poster-container {
+  width: 100%;
+}
+.movie-page-poster-container img {
+  width: 100%;
+  display: block;
+}
+
+.movie-page-title {
+  font-size: 44px;
+}
+
+.movie-page-rating {
+  font-size: 24px;
+}
+.movie-page-plot {
+  font-size: 22px;
+  margin-top: 20px;
+}

@@ -1,0 +1,32 @@
+.movie-list-item {
+  display: block;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+  text-decoration: none;
+  color: #276ef1;
+}
+
+.movie-list-item-wrapper {
+  display: grid;
+  grid-template-columns: 60px auto;
+  gap: 10px;
+}
+.movie-list-item-img {
+  width: 100%;
+}
+.movie-list-item-img img {
+  width: 100%;
+  display: block;
+}
+
+.movie-list-item-desc {
+  padding: 10px;
+}
+
+.movie-list-item-title {
+  font-size: 24px;
+}
+.movie-list-item-rating {
+  color: #555;
+}
